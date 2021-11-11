@@ -1,0 +1,12 @@
+.Body-albums {
+    display: flex;
+    flex-direction: column;
+}
+
+.Albums {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
