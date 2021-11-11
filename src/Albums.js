@@ -8,7 +8,7 @@ export default function Albums() {
   const [albumName, setAlbumName] = useState([]);
 
   const loadData = () => {
-    axios.get("http://127.0.0.1:8000/api/albums/").then(
+    axios.get("https://stark-island-49610.herokuapp.com/api/albums/").then(
       (response) => {
         setAlbumName(response.data);
         console.log(response.data)
