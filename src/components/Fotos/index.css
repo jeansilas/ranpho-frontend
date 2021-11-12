@@ -66,4 +66,30 @@
   border: 0px;
 }
 
+.quit {
+  position: relative;
+  border-radius: 10px;
+  size-adjust:inherit;
+  color:#160F29;
+  background-color:#EF476F;
+  font-style:bold;
+  margin-left:90%;
+  bottom:5px;
+
+
+}
+
+.quit:hover {
+  position: relative;
+  border-radius: 10px;
+  size-adjust:inherit;
+  color:#EF476F;
+  background-color:#160F29;
+  font-style:bold;
+  margin-left:90%;
+  bottom:5px;
+  transition: 0.8s;
+  transform: scale(1.2);
+}
+
 

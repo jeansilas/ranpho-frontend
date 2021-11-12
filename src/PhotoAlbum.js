@@ -39,7 +39,7 @@ export default function PhotoAlbum() {
                 {
                   imgs.map(
                     (imagens) => (
-                      <FOTO_ALBUM key={`fotos__${imagens.id}`} src={imagens.content}></FOTO_ALBUM> 
+                      <FOTO_ALBUM key={`fotos__${imagens.id}`} src={imagens.content} id={imagens.id} album_title={params.album_title}></FOTO_ALBUM> 
                     ))
                 }
             </div>
